@@ -15,6 +15,7 @@
 		A9F572D21A66C7BB007B1EEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9F572D01A66C7BB007B1EEA /* LaunchScreen.xib */; };
 		A9F572DE1A66C7BB007B1EEA /* ScribbleTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F572DD1A66C7BB007B1EEA /* ScribbleTouchTests.m */; };
 		A9F572E91A66C81E007B1EEA /* ScribbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F572E81A66C81E007B1EEA /* ScribbleView.m */; };
+		B663D4C11A68198000C97C1F /* ChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B663D4C01A68198000C97C1F /* ChoiceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A9F572DD1A66C7BB007B1EEA /* ScribbleTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleTouchTests.m; sourceTree = "<group>"; };
 		A9F572E71A66C81E007B1EEA /* ScribbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleView.h; sourceTree = "<group>"; };
 		A9F572E81A66C81E007B1EEA /* ScribbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleView.m; sourceTree = "<group>"; };
+		B663D4BF1A68198000C97C1F /* ChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceViewController.h; sourceTree = "<group>"; };
+		B663D4C01A68198000C97C1F /* ChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		A9F572C01A66C7BB007B1EEA /* ScribbleTouch */ = {
 			isa = PBXGroup;
 			children = (
+				B663D4BF1A68198000C97C1F /* ChoiceViewController.h */,
+				B663D4C01A68198000C97C1F /* ChoiceViewController.m */,
 				A9F572E71A66C81E007B1EEA /* ScribbleView.h */,
 				A9F572E81A66C81E007B1EEA /* ScribbleView.m */,
 				A9F572C81A66C7BB007B1EEA /* ViewController.h */,
@@ -227,6 +232,7 @@
 				A9F572CA1A66C7BB007B1EEA /* ViewController.m in Sources */,
 				A9F572C71A66C7BB007B1EEA /* AppDelegate.m in Sources */,
 				A9F572E91A66C81E007B1EEA /* ScribbleView.m in Sources */,
+				B663D4C11A68198000C97C1F /* ChoiceViewController.m in Sources */,
 				A9F572C41A66C7BB007B1EEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				A9F572E31A66C7BB007B1EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9F572E41A66C7BB007B1EEA /* Build configuration list for PBXNativeTarget "ScribbleTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				A9F572E61A66C7BB007B1EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
